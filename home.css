@@ -3,6 +3,12 @@ body{
     background: white;
     width: 100%;
 }
+/* down page */
+#underground{
+    display: flex;
+    flex-direction: row;
+    gap: 520px;
+}
 /* for information */
 .mif h1{
     margin-left: 35%;
@@ -111,9 +117,25 @@ body{
 
 /* homeproduct */
 #homeproduct{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+#homeproduct h1{
+    color: #000;
+    padding-top: 20px;
+    margin-left: 40%;
+}
+.homeproduct1{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+}
+.homeproduct1 img{
+    margin: 10px 0 10px 0;;
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 /* footer*/
